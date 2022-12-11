@@ -1,11 +1,12 @@
-// 주석 5 : 인터페이스 다형성
+// 주석 3 : 인터페이스 구현 클래스 선언
 public class ChooseOption implements Interface {
   
   @Override
   public void print() {
     System.out.println("Hallyu: 1, Export(한류 총 수출액): 2, FAQ: 3, End: 0");
   }
-   
+  
+  // 주석 5 : 인터페이스 다형성
   @Override 
   public int select(int n) {
     Option option;

@@ -53,7 +53,7 @@ public class TaskMain {
       }
       catch (InputMismatchException e) { // 정수가 아니라 문자나 다른 게 입력되었을 경우 
         sc = new Scanner(System.in); // 입력 초기화
-        System.out.println("정상적인 숫자(0 ~ 4)를 입력하세요.");
+        System.out.println("정상적인 숫자(0, 1, 2, 3)를 입력하세요.");
       }
       if(n == 0) { // n 값이 0이면 바로 프로그램 종료
         break;
