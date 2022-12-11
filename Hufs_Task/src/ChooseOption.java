@@ -12,21 +12,21 @@ public class ChooseOption implements Interface {
     Option option;
     switch (n) {
       case 1:
-				option = Option.Hallyu;
-				System.out.println("한류에 대한 정보를 출력합니다.");
-				break;
-			case 2:
-				option = Option.Export;
-				System.out.println("한류 총 수출액에 대한 정보를 출력합니다.");
-				break;
+        option = Option.Hallyu;
+        System.out.println("한류에 대한 정보를 출력합니다.");
+        break;
+      case 2:
+        option = Option.Export;
+        System.out.println("한류 총 수출액에 대한 정보를 출력합니다.");
+        break;
       case 3:
-				option = Option.Type;
-				System.out.println("한류 FAQ를 출력합니다.");
-				break;
+        option = Option.Type;
+        System.out.println("한류 FAQ를 출력합니다.");
+        break;
       case 0:
-				option = Option.End;
-				System.out.println("프로그램 종료");
-				break;
+        option = Option.End;
+        System.out.println("프로그램 종료");
+        break;
       }
       return n;
     }
